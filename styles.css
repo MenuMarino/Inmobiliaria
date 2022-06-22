@@ -1,0 +1,92 @@
+button,
+div {
+  font-size: 40px;
+}
+button {
+  padding: 5px;
+  width: calc(50% - 10px);
+  white-space: nowrap;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.row {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.row img {
+  width: 100px;
+  height: 100px;
+  margin-top: 8px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.column {
+  /* flex: 50%; */
+  padding: 0 4px;
+  flex-direction: column;
+  /* flex-grow: 2; */
+}
+
+.column img {
+  width: 100px;
+  height: 100px;
+  margin-top: 8px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.fixed {
+  width: 57%;
+  /* flex-grow: 2; */
+}
+
+.buttonFixed {
+  width: 80%;
+}
+
+.perimeterRow {
+  flex: 50%;
+  padding: 0 4px;
+}
+.perimeterRow img {
+  width: 37px !important;
+  height: 20px !important;
+  padding: 0 !important;
+  margin-top: 8px;
+}
+
+.perimeterRow2 {
+  flex: 50%;
+  padding: 0 4px;
+}
+.perimeterRow2 img {
+  width: 33px !important;
+  height: 20px !important;
+  padding: 0 !important;
+  margin-top: 8px;
+}
+
+.perimeterSide {
+  flex: 50%;
+  padding: 0 4px;
+}
+.perimeterSide img {
+  width: 20px !important;
+  height: 32px !important;
+  padding: 0 !important;
+  margin-top: 8px;
+}
+
+.flex-item {
+  /* flex-grow: 4; */
+}
