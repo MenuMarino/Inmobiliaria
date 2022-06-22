@@ -52,10 +52,10 @@ window.changeAll = function () {
       var img = document.getElementById(imgId);
       if (allActive) {
         if (img.style.opacity != 1) fadeIn(img);
-        document.getElementById(key + '_check').textContent = '\u2705';
+        document.getElementById(key + '_check').textContent = '\u2705'; // Check mark
       } else {
         if (img.style.opacity != 0.2) fadeOut(img);
-        document.getElementById(key + '_check').textContent = '\u274C';
+        document.getElementById(key + '_check').textContent = '\u274C'; // X mark
       }
     }
   }
