@@ -1,11 +1,22 @@
 var allActive = true;
 
 function showInfo(key) {
+  var list = document.getElementById('infoList');
+  list.innerHTML = '';
+  if (key === 'Zona' || key === 'Descanso') return;
+  var pathToImg = `./assets/logos/${key.toLowerCase()}.jpg`;
   var img = document.getElementById('infoImg');
-  img.src = `./assets/logos/${key.toLowerCase()}.jpg`;
+  img.src = pathToImg;
   img.style.width = '500px';
   img.style.height = '200px';
   document.getElementById('infoTitle').textContent = infoStands[key].title;
+  var ol = document.createElement('ol');
+  for (var d of infoStands[key].distritos) {
+    let li = document.createElement('li');
+    li.innerHTML = d;
+    ol.appendChild(li);
+  }
+  list.appendChild(ol);
   // document.getElementById('infoBody').textContent = 'Body' + key;
 }
 
