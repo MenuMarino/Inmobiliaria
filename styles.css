@@ -26,6 +26,57 @@ button {
   padding: 10px;
 }
 
+.perimeterImageContainer {
+  vertical-align: middle;
+  width: 37px;
+  height: 38px;
+  font-size: 14px;
+  background-image: var(--image);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 9px;
+  display: inline-block;
+}
+
+.perimeterImageContainer2 {
+  vertical-align: middle;
+  width: 33px;
+  height: 38px;
+  font-size: 14px;
+  background-image: var(--image);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 9px;
+  display: inline-block;
+}
+
+.columnImageContainer {
+  vertical-align: middle;
+  width: 40px;
+  height: 38px;
+  font-size: 14px;
+  background-image: var(--image);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 9px;
+}
+
+.imageContainer {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  background-image: var(--image);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px;
+}
+
 .column {
   padding: 0 4px;
   flex-direction: column;
@@ -49,6 +100,7 @@ button {
 
 .buttonFixed {
   width: 80%;
+  font-size: 14px;
 }
 
 .perimeterRow {
@@ -75,11 +127,11 @@ button {
 
 .perimeterSide {
   flex: 50%;
-  padding: 0 4px;
+  /* padding: 0 4px; */
 }
 .perimeterSide img {
   width: 20px !important;
-  height: 32px !important;
+  height: 25px !important;
   padding: 0 !important;
   margin-top: 8px;
 }
