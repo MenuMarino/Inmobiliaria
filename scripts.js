@@ -44,6 +44,12 @@ function fadeOut(el) {
   tick();
 }
 
+function checkAll() {
+  for (var [key, value] of Object.entries(distritos)) {
+    allActive = allActive & value.active;
+  }
+}
+
 window.changeAll = function () {
   allActive = !allActive;
   if (allActive)
@@ -108,6 +114,8 @@ window.myFunction = function (distrito) {
     changeAll();
     return;
   }
+
+  if (allActive) changeAll();
   distritos[distrito].active = !distritos[distrito].active;
   var active = distritos[distrito].active;
   var imgs = distritos[distrito].imgs;
@@ -131,4 +139,5 @@ window.myFunction = function (distrito) {
       }
     }
   }
+  checkAll();
 };

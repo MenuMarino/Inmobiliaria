@@ -54,7 +54,7 @@ var distritos = {
       'S83',
       'S84',
     ],
-    active: true,
+    active: false,
   },
   santiago_de_surco: {
     imgs: [
@@ -93,7 +93,7 @@ var distritos = {
       'S65',
       'S66',
     ],
-    active: true,
+    active: false,
   },
   barranco: {
     imgs: [
@@ -113,7 +113,7 @@ var distritos = {
       'S40',
       'S41',
     ],
-    active: true,
+    active: false,
   },
   san_isidro: {
     imgs: [
@@ -143,7 +143,7 @@ var distritos = {
       'S82',
       'S83',
     ],
-    active: true,
+    active: false,
   },
   san_borja: {
     imgs: [
@@ -159,7 +159,7 @@ var distritos = {
       'S63',
       'S64',
     ],
-    active: true,
+    active: false,
   },
   jesus_maria: {
     imgs: [
@@ -201,7 +201,7 @@ var distritos = {
       'S82',
       'S86',
     ],
-    active: true,
+    active: false,
   },
   lince: {
     imgs: [
@@ -228,7 +228,7 @@ var distritos = {
       'S78',
       'S80',
     ],
-    active: true,
+    active: false,
   },
   magdalena: {
     imgs: [
@@ -262,7 +262,7 @@ var distritos = {
       'S73',
       'S74',
     ],
-    active: true,
+    active: false,
   },
   pueblo_libre: {
     imgs: [
@@ -295,7 +295,7 @@ var distritos = {
       'S75',
       'S76',
     ],
-    active: true,
+    active: false,
   },
   san_miguel: {
     imgs: [
@@ -323,7 +323,7 @@ var distritos = {
       'S79',
       'S84',
     ],
-    active: true,
+    active: false,
   },
   surquillo: {
     imgs: [
@@ -345,15 +345,15 @@ var distritos = {
       'S57',
       'S85',
     ],
-    active: true,
+    active: false,
   },
   smp: {
     imgs: ['A1', 'A11', 'A30'],
-    active: true,
+    active: false,
   },
   ate: {
     imgs: ['A4', 'S38', 'S44'],
-    active: true,
+    active: false,
   },
   la_victoria: {
     imgs: [
@@ -372,11 +372,11 @@ var distritos = {
       'S60',
       'S61',
     ],
-    active: true,
+    active: false,
   },
   brena: {
     imgs: ['A8', 'A11', 'A35', 'M1', 'M13', 'S17', 'S18'],
-    active: true,
+    active: false,
   },
   chorrillos: {
     imgs: [
@@ -398,7 +398,7 @@ var distritos = {
       'S48',
       'S49',
     ],
-    active: true,
+    active: false,
   },
   cercado_lima: {
     imgs: [
@@ -419,39 +419,39 @@ var distritos = {
       'S55',
       'S67',
     ],
-    active: true,
+    active: false,
   },
   independencia: {
     imgs: ['A14'],
-    active: true,
+    active: false,
   },
   carabayllo: {
     imgs: ['A27', 'A32', 'S7', 'S60', 'S61'],
-    active: true,
+    active: false,
   },
   chaclacayo: {
     imgs: ['A30'],
-    active: true,
+    active: false,
   },
   mala: {
     imgs: ['A32'],
-    active: true,
+    active: false,
   },
   pachacamac: {
     imgs: ['A32'],
-    active: true,
+    active: false,
   },
   san_luis: {
     imgs: ['S4'],
-    active: true,
+    active: false,
   },
   san_bartolo: {
     imgs: ['S25a', 'S41'],
-    active: true,
+    active: false,
   },
   bellavista: {
     imgs: ['S71', 'S72'],
-    active: true,
+    active: false,
   },
 };
 var currentActives = [
