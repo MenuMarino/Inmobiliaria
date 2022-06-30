@@ -127,7 +127,6 @@ button {
 
 .perimeterSide {
   flex: 50%;
-  /* padding: 0 4px; */
 }
 .perimeterSide img {
   width: 10px !important;
@@ -139,9 +138,6 @@ button {
 .box {
   display: inline-block;
   vertical-align: top;
-  /* width: 85px;
-  height: 85px; */
-  /* background: #446c74; */
   margin: 5px;
 }
 .content {

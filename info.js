@@ -15,7 +15,7 @@ var infoStands = {
     },
   },
   A3: {
-    title: 'SAN CHARBEL EDIFICACIONES',
+    title: 'SAN CHARBEL ED.',
     distritos: {
       jesus_maria: ['Join'],
       magdalena_del_mar: [
@@ -216,7 +216,7 @@ var infoStands = {
     distritos: {
       santiago_de_surco: ['Condominio Esencial'],
       chorrillos: ['Condominio Felizia'],
-      san_borja: ['CONSULTORIOS MÉDICOS SAN BORJA MEDIC'],
+      san_borja: ['Consultorios Medicos San Borja Medic'],
       surquillo: ['Edificio Altaurora'],
       miraflores: ['Edificio VIVERDI'],
     },
@@ -284,6 +284,9 @@ var infoStands = {
       san_martin_de_porres: ['Gran Tomás Valle'],
       miraflores: ['La Mar'],
       chaclacayo: ['MIRADOR DEL GOLF 2 Etapa I'],
+      chilca: ['Alameda Lima Sur de Chilca'],
+      asia: ['Alborada de Asia', 'Monte Alto'],
+      paracas: ['Sol de Paracas'],
     },
   },
   A31: {
@@ -337,7 +340,14 @@ var infoStands = {
   },
   A38: {
     title: 'Los Portales HU',
-    distritos: [''],
+    distritos: {
+      chilca: ['Alameda Lima Sur de Chilca'],
+      asia: ['Alborada de Asia', 'Monte Alto'],
+      paracas: ['Sol de Paracas'],
+      cercado_de_lima: ['Gran Central Colonial', 'Gran Parque Roma'],
+      san_martin_de_porres: ['Gran Tomas Valle'],
+      chaclacayo: ['Mirador del golf 2 Etapa I'],
+    },
   },
   B1: {
     title: 'BBVA',

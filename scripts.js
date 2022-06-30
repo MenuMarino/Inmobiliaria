@@ -1,4 +1,3 @@
-var allActive = true;
 var currentDistrict = '';
 var currentKey = '';
 var districtName = '';
@@ -9,6 +8,7 @@ function showInfo(key) {
   list.innerHTML = '';
   document.getElementById('infoBody').textContent = '';
   if (key === 'Zona' || key === 'Descanso') return;
+
   var pathToImg = `./assets/logos/${key.toLowerCase()}.jpg`;
   var img = document.getElementById('infoImg');
   img.src = pathToImg;
@@ -87,14 +87,14 @@ const snakeCase = (string) => {
 
 window.myFunction = function (distrito) {
   districtName = distrito;
-  distrito = snakeCase(distrito);
-  currentDistrict = distrito;
-  if (distrito == 'todos_los_distritos') {
+  if (distrito === 'Breña') currentDistrict = 'breña';
+  else currentDistrict = snakeCase(distrito);
+  if (currentDistrict == 'todos_los_distritos') {
     changeAll(true);
     return;
   }
   changeAll(false);
-  for (var imgId of distritos[distrito]) {
+  for (var imgId of distritos[currentDistrict]) {
     var img = document.getElementById(imgId);
     if (img.style.opacity != 1) fadeIn(img);
   }
