@@ -1,15 +1,24 @@
 import csv
-file = open('dab.csv')
+
+def camel_to_snake(s):
+    s = s.lower()
+    return s.replace(' ', '_')
+
+file = open('DISTRITOS.csv')
 csvreader = csv.reader(file)
-rows = []
 info = {}
 
 for row in csvreader:
-    key = row[1].lower().replace(' ', '_')
-    if key in info:
-        info[key].append(row[0])
-    else:
-        info[key] = [row[0]]
+    distrito = True
+    distrito_nombre = ''
+    for value in row:
+        if distrito:
+            distrito_nombre = camel_to_snake(value)
+            info[distrito_nombre] = []
+            distrito = False
+        else:
+            if value == '':
+                break
+            info[distrito_nombre].append(value)
 
-with open('readme.txt', 'w') as f:
-    f.write(f"distritos: {info},")
+print(info)

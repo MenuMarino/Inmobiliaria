@@ -35,7 +35,7 @@ var infoStands = {
     title: 'VYV',
     distritos: {
       magdalena_del_mar: ['Aliaga 650 - Etapa 2'],
-      surquillo: ['Arambur� 836'],
+      surquillo: ['Aramburú 836'],
       san_isidro: ['Arequipa 2655', 'Carriquiry 894', 'ROMA 498'],
       miraflores: [
         'BENAVIDES 1130',
@@ -54,22 +54,22 @@ var infoStands = {
     distritos: {
       santiago_de_surco: ['INIZZIO'],
       miraflores: ['Piknik Park'],
-      pueblo_libre: ['Sim�n'],
+      pueblo_libre: ['Simón'],
     },
   },
   A7: {
     title: 'My home',
     distritos: {
-      jesus_maria: ['Garz�n'],
+      jesus_maria: ['Garzón'],
       lince: ['Linsidro'],
-      la_victoria: ['Millenium', 'Voc�'],
+      la_victoria: ['Millenium', 'Você'],
       san_borja: ['SBN 1206', 'SBN 685', 'SBS 1155'],
     },
   },
   A8: {
     title: 'Cosapi',
     distritos: {
-      'bre�a': ['Duplo (Fase 2)', 'Sente (Fase 2)'],
+      breña: ['Duplo (Fase 2)', 'Sente (Fase 2)'],
       jesus_maria: ['Nesta - Terra (Fase 4)', 'Nesta (Fase 3)', 'Nesta Terra'],
     },
   },
@@ -104,9 +104,9 @@ var infoStands = {
       san_miguel: ['AMARI'],
       san_isidro: ['DOS60', 'DOS76'],
       miraflores: ['HENKO', 'SONHOS'],
-      'bre�a': ['MAZ'],
-      san_martin_de_porres: ['Paseo San Mart�n', 'Paseo San Mart�n - Etapa 5'],
-      chorrillos: ['Villa Campi�a'],
+      breña: ['MAZ'],
+      san_martin_de_porres: ['Paseo San Martín', 'Paseo San Martín - Etapa 5'],
+      chorrillos: ['Villa Campiña'],
     },
   },
   A12: {
@@ -128,7 +128,7 @@ var infoStands = {
   A14: {
     title: 'Albamar',
     distritos: {
-      san_isidro: ['Be Libertadores', 'LIBERT�'],
+      san_isidro: ['Be Libertadores', 'LIBERTÁ'],
       chorrillos: ['Centro Comercial  Galaxy Plaza'],
       catacaos: ['Condominio Veranda'],
       lince: ['CUORE - OFICINAS'],
@@ -170,7 +170,7 @@ var infoStands = {
     title: 'Activa',
     distritos: {
       santiago_de_surco: ['El Golf 335', 'Inspira Chacarilla', 'QABAL'],
-      jesus_maria: ['RE-evoluci�n'],
+      jesus_maria: ['RE-evolución'],
       cercado_de_lima: ['Reserva 1212'],
       miraflores: ['San Martin 639'],
     },
@@ -200,7 +200,7 @@ var infoStands = {
   A21: {
     title: 'Ecohabitat',
     distritos: {
-      pueblo_libre: ['ION 160�'],
+      pueblo_libre: ['ION 160°'],
       san_miguel: ['Parque Pucala', 'Residencial Almudena'],
     },
   },
@@ -216,7 +216,7 @@ var infoStands = {
     distritos: {
       santiago_de_surco: ['Condominio Esencial'],
       chorrillos: ['Condominio Felizia'],
-      san_borja: ['CONSULTORIOS M�DICOS SAN BORJA MEDIC'],
+      san_borja: ['CONSULTORIOS MÉDICOS SAN BORJA MEDIC'],
       surquillo: ['Edificio Altaurora'],
       miraflores: ['Edificio VIVERDI'],
     },
@@ -224,7 +224,7 @@ var infoStands = {
   A24: {
     title: 'Lugano',
     distritos: {
-      jesus_maria: ['GREEN PARK', 'PARQUE CAC�RES'],
+      jesus_maria: ['GREEN PARK', 'PARQUE CACÉRES'],
       miraflores: ['TreeHouse'],
     },
   },
@@ -245,8 +245,8 @@ var infoStands = {
   A26: {
     title: 'La muralla',
     distritos: {
-      chorrillos: ['ALMARE', 'CARDINAL', 'FLORECE', 'N�MADE'],
-      barranco: ['C�NIT'],
+      chorrillos: ['ALMARE', 'CARDINAL', 'FLORECE', 'NÓMADE'],
+      barranco: ['CÉNIT'],
       reque: ['VALLE REQUE ETAPA 3'],
     },
   },
@@ -256,7 +256,7 @@ var infoStands = {
       san_miguel: ['Amalfi'],
       la_victoria: ['Escala', 'Residencial Real'],
       miraflores: ['Galia'],
-      jesus_maria: ['Lima Uno', 'P�rgola'],
+      jesus_maria: ['Lima Uno', 'Pérgola'],
       pueblo_libre: ['Magnolia', 'Savia'],
       carabayllo: ['Villa Club Carabayllo'],
     },
@@ -265,7 +265,7 @@ var infoStands = {
     title: 'Danfra',
     distritos: {
       santiago_de_surco: ['Amelie', 'Amelie - Borrar', 'FILIN'],
-      miraflores: ['Liv 385', 'Los �ngeles 305', 'Vital'],
+      miraflores: ['Liv 385', 'Los Ángeles 305', 'Vital'],
       surquillo: ['Match', 'Nodo'],
     },
   },
@@ -281,7 +281,7 @@ var infoStands = {
     title: 'Los Portales',
     distritos: {
       cercado_de_lima: ['Gran Central Colonial', 'Gran Parque Roma'],
-      san_martin_de_porres: ['Gran Tom�s Valle'],
+      san_martin_de_porres: ['Gran Tomás Valle'],
       miraflores: ['La Mar'],
       chaclacayo: ['MIRADOR DEL GOLF 2 Etapa I'],
     },
@@ -323,7 +323,7 @@ var infoStands = {
         'Time Aurora - Oficinas boutique',
       ],
       pueblo_libre: ['Qualis - Consultorios'],
-      'bre�a': ['T�ndem Parc'],
+      breña: ['Tándem Parc'],
       santiago_de_surco: ['Time Surco - Oficinas boutique'],
     },
   },
@@ -404,9 +404,9 @@ var infoStands = {
       santiago_de_surco: ['Gview - Golf Los Inkas'],
       barranco: ['Invent Barranco', 'PATRIA'],
       chorrillos: ['Invent Chorrillos'],
-      jesus_maria: ['Invent Cuba', 'Invent Jes�s Mar�a', 'LEGADO'],
+      jesus_maria: ['Invent Cuba', 'Invent Jesús María', 'LEGADO'],
       magdalena_del_mar: ['Invent Juan de Aliaga'],
-      miraflores: ['Invent Miraflores', 'Invent Su�rez'],
+      miraflores: ['Invent Miraflores', 'Invent Suárez'],
       cercado_de_lima: ['Invent Tirado'],
     },
   },
@@ -494,7 +494,7 @@ var infoStands = {
   M10: {
     title: 'Actual',
     distritos: {
-      miraflores: ['Arequipa', 'Berl�n', 'Lord Cochrane', 'Piura', 'Rep�blica'],
+      miraflores: ['Arequipa', 'Berlín', 'Lord Cochrane', 'Piura', 'República'],
       jesus_maria: ['Brasil'],
       chorrillos: ['Faisanes'],
       san_isidro: ['Pinos'],
@@ -517,10 +517,10 @@ var infoStands = {
       miraflores: ['ANGAMOS 1661', 'Distrito 18'],
       san_antonio: [
         'Condominio Kala - Vive Puerto Viejo',
-        'Condominio Kal�a - Vive Puerto Viejo',
+        'Condominio Kalúa - Vive Puerto Viejo',
       ],
       san_isidro: ['El Olivar'],
-      magdalena_del_mar: ['El�spuru'],
+      magdalena_del_mar: ['Eléspuru'],
       jesus_maria: ['Salaverry 571'],
     },
   },
@@ -548,9 +548,9 @@ var infoStands = {
       santiago_de_surco: ['Gview - Golf Los Inkas'],
       barranco: ['Invent Barranco', 'PATRIA'],
       chorrillos: ['Invent Chorrillos'],
-      jesus_maria: ['Invent Cuba', 'Invent Jes�s Mar�a', 'LEGADO'],
+      jesus_maria: ['Invent Cuba', 'Invent Jesús María', 'LEGADO'],
       magdalena_del_mar: ['Invent Juan de Aliaga'],
-      miraflores: ['Invent Miraflores', 'Invent Su�rez'],
+      miraflores: ['Invent Miraflores', 'Invent Suárez'],
       cercado_de_lima: ['Invent Tirado'],
     },
   },
@@ -558,7 +558,7 @@ var infoStands = {
     title: 'VYV',
     distritos: {
       magdalena_del_mar: ['Aliaga 650 - Etapa 2'],
-      surquillo: ['Arambur� 836'],
+      surquillo: ['Aramburú 836'],
       san_isidro: ['Arequipa 2655', 'Carriquiry 894', 'ROMA 498'],
       miraflores: [
         'BENAVIDES 1130',
@@ -587,14 +587,14 @@ var infoStands = {
       miraflores: [
         '28 DE JULIO',
         'BOLOGNESI 373',
-        'C�rdova 639',
+        'Córdova 639',
         'La Mar 1055',
         'MARSANO 2670',
         'Recavarren 181',
       ],
       lince: ['Casanova 151'],
       chorrillos: ['RESIDENCIAL MADRE SELVA', 'VISTA MARINA 356'],
-      pueblo_libre: ['RESIDENCIAL PARQUE SAN MART�N'],
+      pueblo_libre: ['RESIDENCIAL PARQUE SAN MARTÍN'],
       magdalena_del_mar: ['RESIDENCIAL VIGIL'],
     },
   },
@@ -607,7 +607,7 @@ var infoStands = {
         'Parque Cueva',
       ],
       san_miguel: ['PARQUE CANDAMO', 'Parque La Medalla'],
-      surquillo: ['Parque Las Orqu�deas'],
+      surquillo: ['Parque Las Orquídeas'],
     },
   },
   M19: {
@@ -714,7 +714,7 @@ var infoStands = {
     title: 'Mirano',
     distritos: {
       santiago_de_surco: ['Monte Umbroso 122'],
-      barranco: ['San Mart�n 230'],
+      barranco: ['San Martín 230'],
       miraflores: ['Sucre 296'],
       lince: ['Villavicencio 1320'],
     },
@@ -725,7 +725,7 @@ var infoStands = {
   },
   S10: {
     title: 'Quark',
-    distritos: { miraflores: ['MOSAIQ'], jesus_maria: ['Parque Mir�'] },
+    distritos: { miraflores: ['MOSAIQ'], jesus_maria: ['Parque Miró'] },
   },
   S11: {
     title: 'HPC',
@@ -840,7 +840,7 @@ var infoStands = {
     distritos: {
       san_isidro: ['BE 525'],
       pueblo_libre: ['DUAL TOWER'],
-      'bre�a': ['Family Tower 2'],
+      breña: ['Family Tower 2'],
       cercado_de_lima: ['LIVING TOWER'],
       miraflores: ['ONE 340'],
     },
@@ -850,7 +850,7 @@ var infoStands = {
     distritos: {
       san_isidro: ['BE 525'],
       pueblo_libre: ['DUAL TOWER'],
-      'bre�a': ['Family Tower 2'],
+      breña: ['Family Tower 2'],
       cercado_de_lima: ['LIVING TOWER'],
       miraflores: ['ONE 340'],
     },
@@ -899,7 +899,7 @@ var infoStands = {
     title: 'Opcion',
     distritos: [''],
   },
-  S25a: {
+  S25A: {
     title: 'Lecsfel',
     distritos: { san_bartolo: ['Bravo San Bartolo'] },
   },
@@ -1055,8 +1055,8 @@ var infoStands = {
   S52: {
     title: 'Metropoli',
     distritos: {
-      jesus_maria: ['Suburbia Jes�s Mar�a'],
-      surquillo: ['Suburbia Park Barrio M�dico'],
+      jesus_maria: ['Suburbia Jesús María'],
+      surquillo: ['Suburbia Park Barrio Médico'],
     },
   },
   S53: {
@@ -1081,7 +1081,7 @@ var infoStands = {
   },
   S56: {
     title: 'Tangible',
-    distritos: { santiago_de_surco: ['Jacarand� Life'] },
+    distritos: { santiago_de_surco: ['Jacarandá Life'] },
   },
   S57: {
     title: 'BE Inmobiliaria',
@@ -1093,7 +1093,7 @@ var infoStands = {
   },
   S59: {
     title: 'Crearte',
-    distritos: { santiago_de_surco: ['Valu�'] },
+    distritos: { santiago_de_surco: ['Valué'] },
   },
   S60: {
     title: 'Centenario',
@@ -1101,7 +1101,7 @@ var infoStands = {
       san_miguel: ['Amalfi'],
       la_victoria: ['Escala', 'Residencial Real'],
       miraflores: ['Galia'],
-      jesus_maria: ['Lima Uno', 'P�rgola'],
+      jesus_maria: ['Lima Uno', 'Pérgola'],
       pueblo_libre: ['Magnolia', 'Savia'],
       carabayllo: ['Villa Club Carabayllo'],
     },
@@ -1112,12 +1112,12 @@ var infoStands = {
       san_miguel: ['Amalfi'],
       la_victoria: ['Escala', 'Residencial Real'],
       miraflores: ['Galia'],
-      jesus_maria: ['Lima Uno', 'P�rgola'],
+      jesus_maria: ['Lima Uno', 'Pérgola'],
       pueblo_libre: ['Magnolia', 'Savia'],
       carabayllo: ['Villa Club Carabayllo'],
     },
   },
-  S61a: {
+  S61A: {
     title: 'Pionero',
     distritos: {
       san_isidro: ['Dos de Mayo 385', 'Rivera Navarrete 548'],
@@ -1177,7 +1177,7 @@ var infoStands = {
   S69: {
     title: 'Procity',
     distritos: {
-      miraflores: ['Blu Building II - Incl�n', 'MAR D�AMALFI'],
+      miraflores: ['Blu Building II - Inclán', "MAR D'AMALFI"],
       santiago_de_surco: ['BluBuilding III - El Polo'],
       lince: ['Liberty', 'LIBERTY ONE'],
       san_miguel: ['MAR ADRIATICO'],
@@ -1186,7 +1186,7 @@ var infoStands = {
   S70: {
     title: 'Procity',
     distritos: {
-      miraflores: ['Blu Building II - Incl�n', 'MAR D�AMALFI'],
+      miraflores: ['Blu Building II - Inclán', "MAR D'AMALFI"],
       santiago_de_surco: ['BluBuilding III - El Polo'],
       lince: ['Liberty', 'LIBERTY ONE'],
       san_miguel: ['MAR ADRIATICO'],

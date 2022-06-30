@@ -28,9 +28,9 @@ button {
 
 .perimeterImageContainer {
   vertical-align: middle;
-  width: 24px;
+  width: 20px;
   height: 25px;
-  font-size: 14px;
+  font-size: 10px;
   background-image: var(--image);
   color: white;
   text-align: center;
@@ -41,9 +41,9 @@ button {
 
 .perimeterImageContainer2 {
   vertical-align: middle;
-  width: 23px;
+  width: 19px;
   height: 25px;
-  font-size: 14px;
+  font-size: 10px;
   background-image: var(--image);
   color: white;
   text-align: center;
@@ -66,9 +66,9 @@ button {
 
 .imageContainer {
   vertical-align: middle;
-  width: 67px;
+  width: 55px;
   height: 68px;
-  font-size: 18px;
+  font-size: 17px;
   background-image: var(--image);
   color: white;
   text-align: center;
@@ -134,4 +134,17 @@ button {
   height: 10px !important;
   padding: 0 !important;
   margin-top: 8px;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+  /* width: 85px;
+  height: 85px; */
+  /* background: #446c74; */
+  margin: 5px;
+}
+.content {
+  display: inline-block;
+  vertical-align: top;
 }

@@ -7,13 +7,16 @@ function showInfo(key) {
   currentKey = key;
   var list = document.getElementById('infoList');
   list.innerHTML = '';
+  document.getElementById('infoBody').textContent = '';
   if (key === 'Zona' || key === 'Descanso') return;
   var pathToImg = `./assets/logos/${key.toLowerCase()}.jpg`;
   var img = document.getElementById('infoImg');
   img.src = pathToImg;
-  img.style.width = '500px';
-  img.style.height = '200px';
-  document.getElementById('infoTitle').textContent = infoStands[key].title;
+  img.style.width = '200px';
+  img.style.height = '80px';
+  document.getElementById(
+    'infoTitle'
+  ).textContent = `${infoStands[key].title} (Stand ${key})`;
   var ol = document.createElement('ol');
   if (
     currentDistrict === '' ||
@@ -57,7 +60,7 @@ function fadeOut(el) {
 window.changeAll = function (active) {
   if (active) {
     for (var [key, value] of Object.entries(distritos)) {
-      var imgs = value.imgs;
+      var imgs = value;
       for (var imgId of imgs) {
         var img = document.getElementById(imgId);
         if (img.style.opacity != 1) fadeIn(img);
@@ -65,7 +68,7 @@ window.changeAll = function (active) {
     }
   } else {
     for (var [key, value] of Object.entries(distritos)) {
-      var imgs = value.imgs;
+      var imgs = value;
       for (var imgId of imgs) {
         var img = document.getElementById(imgId);
         if (img.style.opacity != 0.2) fadeOut(img);
@@ -91,7 +94,7 @@ window.myFunction = function (distrito) {
     return;
   }
   changeAll(false);
-  for (var imgId of distritos[distrito].imgs) {
+  for (var imgId of distritos[distrito]) {
     var img = document.getElementById(imgId);
     if (img.style.opacity != 1) fadeIn(img);
   }
