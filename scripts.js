@@ -12,8 +12,8 @@ function showInfo(key) {
   var pathToImg = `./assets/logos/${key.toLowerCase()}.jpg`;
   var img = document.getElementById('infoImg');
   img.src = pathToImg;
-  img.style.width = '200px';
-  img.style.height = '80px';
+  // img.style.width = '200px';
+  // img.style.height = '80px';
   document.getElementById(
     'infoTitle'
   ).textContent = `${infoStands[key].title} (Stand ${key})`;

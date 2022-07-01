@@ -1,5 +1,11 @@
+@font-face {
+  font-family: MyriadPro;
+  src: url('assets/Fuentes/MyriadPro-Regular.otf') format('opentype');
+}
+
 button,
 div {
+  font-family: MyriadPro;
   font-size: 40px;
 }
 button {
@@ -7,6 +13,17 @@ button {
   width: calc(50% - 10px);
   white-space: nowrap;
 }
+
+.stand {
+  font-size: 12px;
+  padding-top: 25px;
+}
+
+.stand2 {
+  font-size: 12px;
+  padding-top: 2px;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -35,7 +52,7 @@ button {
   color: white;
   text-align: center;
   vertical-align: middle;
-  margin-bottom: 9px;
+  margin-bottom: 32px;
   display: inline-block;
 }
 
