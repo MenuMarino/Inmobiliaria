@@ -97,6 +97,7 @@ button {
 .column {
   padding: 0 4px;
   flex-direction: column;
+  margin-left: -40px;
 }
 
 .column img {
