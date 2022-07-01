@@ -14,9 +14,9 @@ function showInfo(key) {
   img.src = pathToImg;
   // img.style.width = '200px';
   // img.style.height = '80px';
-  document.getElementById(
-    'infoTitle'
-  ).textContent = `${infoStands[key].title} (Stand ${key})`;
+  // document.getElementById(
+  //   'infoTitle'
+  // ).textContent = `${infoStands[key].title} (Stand ${key})`;
   var ol = document.createElement('ol');
   if (
     currentDistrict === '' ||
@@ -30,7 +30,7 @@ function showInfo(key) {
     ol.appendChild(li);
   }
   list.appendChild(ol);
-  document.getElementById('infoBody').textContent = districtName;
+  // document.getElementById('infoBody').textContent = districtName;
 }
 
 function fadeIn(el) {
